@@ -237,10 +237,10 @@
 
         main_gallium {
             bindings = <
-&kp ESCAPE    &kp L         &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U                &kp QUESTION
-&hml LC(A) N  &kp R         &holdlayer 3 T  &hml LC(S) S  &kp G           &kp Y            &kp H         &kp A        &kp E                &kp I
-&hml LALT X   &hml LC(X) Q  &hml LC(C) M    &hml LC(V) W  &kp Z           &kp B            &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT KP_COMMA  &hmr RALT BACKSLASH
-                                            &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
+&kp ESCAPE         &kp L         &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U                &kp QUESTION
+&hml LC(A) N       &kp R         &holdlayer 3 T  &hml LC(S) S  &kp G           &kp Y            &kp H         &kp A        &kp E                &kp I
+&hml LEFT_SHIFT X  &hml LC(X) Q  &hml LC(C) M    &hml LC(V) W  &kp Z           &kp B            &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT KP_COMMA  &hmr RALT BACKSLASH
+                                                 &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
             >;
         };
 
@@ -255,8 +255,8 @@
 
         nav {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP      &kp HOME    &kp UP           &kp END      &trans
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp PAGE_DOWN  &kp LEFT    &kp DOWN         &kp RIGHT    &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP      &kp HOME    &kp UP           &kp END      &bt BT_NXT
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp PAGE_DOWN  &kp LEFT    &kp DOWN         &kp RIGHT    &soft_off
 &kp F11  &kp F12  &trans  &trans  &trans   &kp DEL        &kp DELETE  &kp LC(RS(TAB))  &kp LC(TAB)  &trans
                           &trans  &trans   &trans         &trans
             >;
