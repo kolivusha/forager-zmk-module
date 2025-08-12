@@ -220,6 +220,16 @@
 
             mods = <(MOD_LSFT)>;
         };
+
+        holdlayer: holdlayer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDLAYER";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "balanced";
+        };
     };
 
     keymap {
@@ -227,10 +237,10 @@
 
         main_gallium {
             bindings = <
-&kp B         &kp L         &kp D         &kp C         &kp V           &kp J            &kp F         &kp O        &kp U              &kp QUESTION
-&hml LC(A) N  &kp R         &lt 3 T       &hml LC(S) S  &kp G           &kp Y            &kp H         &kp A        &kp E              &kp I
-&hml LALT X   &hml LC(X) Q  &hml LC(C) M  &hml LC(V) W  &kp Z           &kp SQT          &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT PERIOD  &hmr RALT FSLH
-                                          &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
+&kp B         &kp L         &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U              &kp QUESTION
+&hml LC(A) N  &kp R         &holdlayer 3 T  &hml LC(S) S  &kp G           &kp Y            &kp H         &kp A        &kp E              &kp I
+&hml LALT X   &hml LC(X) Q  &hml LC(C) M    &hml LC(V) W  &kp Z           &kp SQT          &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT PERIOD  &hmr RALT FSLH
+                                            &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
             >;
         };
 
