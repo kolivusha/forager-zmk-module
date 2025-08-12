@@ -255,8 +255,8 @@
         wow {
             bindings = <
 &kp N1        &kp N2  &kp N3  &kp N4     &kp N5     &kp N6     &kp N7    &kp N8      &kp N9     &kp PRINTSCREEN
-&kp TAB       &kp Q   &kp W   &kp E      &kp R      &kp LS(N)  &kp P     &kp INSERT  &kp J      &to 0
-&kp ASTERISK  &kp A   &kp S   &kp D      &kp SPACE  &kp M      &kp LEFT  &kp DEL     &kp RIGHT  &kp X
+&kp TAB       &kp Q   &kp W   &kp E      &kp R      &kp LS(N)  &kp LEFT  &kp INSERT  &kp RIGHT  &to 0
+&kp ASTERISK  &kp A   &kp S   &kp D      &kp SPACE  &kp M      &kp P     &kp DEL     &kp J      &kp X
                               &kp LSHFT  &kp LCTRL  &kp B      &kp C
             >;
         };
