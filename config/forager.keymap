@@ -237,19 +237,19 @@
 
         main_gallium {
             bindings = <
-&mt ESCAPE B  &kp L         &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U              &kp QUESTION
-&hml LC(A) N  &kp R         &holdlayer 3 T  &hml LC(S) S  &kp G           &kp Y            &kp H         &kp A        &kp E              &kp I
-&hml LALT X   &hml LC(X) Q  &hml LC(C) M    &hml LC(V) W  &kp Z           &kp SQT          &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT PERIOD  &hmr RALT BACKSLASH
+&kp ESCAPE    &kp L         &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U                &kp QUESTION
+&hml LC(A) N  &kp R         &holdlayer 3 T  &hml LC(S) S  &kp G           &kp Y            &kp H         &kp A        &kp E                &kp I
+&hml LALT X   &hml LC(X) Q  &hml LC(C) M    &hml LC(V) W  &kp Z           &kp B            &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT KP_COMMA  &hmr RALT BACKSLASH
                                             &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
             >;
         };
 
         num_sym {
             bindings = <
-&kp ESCAPE         &kp AT_SIGN    &kp POUND         &kp DOLLAR            &kp PERCENT            &kp N7  &kp N8  &kp N9  &kp MINUS  &kp FSLH
+&kp EXCL           &kp AT_SIGN    &kp POUND         &kp DOLLAR            &kp PERCENT            &kp N7  &kp N8  &kp N9  &kp MINUS  &kp FSLH
 &kp SQT            &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N4  &kp N5  &kp N6  &kp PLUS   &kp STAR
 &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp N1  &kp N2  &kp N3  &kp DOT    &kp EQUAL
-                                                    &trans                &trans                 &trans  &kp N0
+                                                    &kp B                 &trans                 &trans  &kp N0
             >;
         };
 
@@ -264,10 +264,10 @@
 
         wow {
             bindings = <
-&kp N1        &kp N2  &kp N3  &kp N4        &kp N5     &kp N6     &kp N7    &kp N8      &kp N9     &kp PRINTSCREEN
-&kp TAB       &kp Q   &kp W   &kp E         &kp R      &kp LS(N)  &kp LEFT  &kp INSERT  &kp RIGHT  &kp X
-&kp ASTERISK  &kp A   &kp S   &kp D         &kp SPACE  &kp M      &kp P     &kp DEL     &kp J      &to 0
-                              &kp LEFT_ALT  &kp LCTRL  &kp B      &kp C
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp N3              &kp N4          &kp N5     &kp N6    &kp INS  &kp N8     &kp PRINTSCREEN
+&kp TAB       &kp Q         &kp W         &kp E               &kp R           &kp LS(N)  &kp LEFT  &kp DEL  &kp RIGHT  &kp X
+&kp ASTERISK  &kp A         &kp S         &kp D               &kp SPACE       &kp M      &kp P     &kp C    &kp J      &to 0
+                                          &kp LC(LEFT_SHIFT)  &kp LEFT_SHIFT  &kp SPACE  &kp B
             >;
         };
 
