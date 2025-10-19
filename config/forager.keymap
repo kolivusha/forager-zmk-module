@@ -256,7 +256,7 @@
             bindings = <
 &hml ESCAPE B      &kp L            &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U             &kp QUESTION
 &hml LC(A) N       &hml LEFT_ALT R  &holdlayer 3 T  &hml LC(F) S  &kp G           &kp Y            &kp H         &kp A        &kp E             &kp I
-&hml LEFT_SHIFT X  &hml LC(X) Q     &hml LC(C) M    &hml LC(V) W  &kp Z           &lt 4 APOS       &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT COMMA  &hmr ENTER PERIOD
+&hml LEFT_SHIFT X  &hml LC(X) Q     &hml LC(C) M    &hml LC(V) W  &kp Z           &lt 4 APOS       &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT COMMA  &hmr LEFT_SHIFT PERIOD
                                                     &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
             >;
         };
