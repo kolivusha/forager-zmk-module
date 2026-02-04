@@ -85,8 +85,8 @@
         tri_layer {
             // if-layers = <NUM NAV>;
 
-            if-layers = <6 7>;
-            then-layer = <10>;
+            if-layers = <7 8>;
+            then-layer = <11>;
         };
     };
 
@@ -272,9 +272,9 @@
 
         nav {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP      &kp HOME    &kp UP           &kp END      &bt BT_SEL 0
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp PAGE_DOWN  &kp LEFT    &kp DOWN         &kp RIGHT    &bt BT_NXT
-&kp F11  &kp F12  &trans  &trans  &trans   &kp DEL        &kp DELETE  &kp LC(RS(TAB))  &kp LC(TAB)  &soft_off
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp PG_UP      &kp HOME    &kp UP           &kp END      &trans
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp PAGE_DOWN  &kp LEFT    &kp DOWN         &kp RIGHT    &trans
+&kp F11  &kp F12  &to 3   &to 5   &trans   &kp DEL        &kp DELETE  &kp LC(RS(TAB))  &kp LC(TAB)  &trans
                           &trans  &trans   &trans         &trans
             >;
         };
@@ -303,6 +303,15 @@
 &kp LSHFT  &kp A    &kp W   &kp D        &kp F      &kp TAB   &kp TAB   &kp TAB  &kp TAB  &kp TAB
 &kp LCTRL  &kp TAB  &kp S   &kp X        &kp V      &kp K     &kp H     &kp ESC  &kp ESC  &to 0
                             &kp LC(F11)  &kp SPACE  &kp LGUI  &kp LALT
+            >;
+        };
+
+        umlauts {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans
             >;
         };
 
