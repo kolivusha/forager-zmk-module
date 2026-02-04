@@ -254,10 +254,10 @@
 
         main_gallium {
             bindings = <
-&hml ESCAPE B      &kp L            &kp D           &kp C         &kp V           &kp J            &kp F         &kp O        &kp U             &kp QUESTION
-&hml LC(A) N       &hml LEFT_ALT R  &holdlayer 3 T  &hml LC(F) S  &kp G           &kp Y            &kp H         &kp A        &kp E             &kp I
-&hml LEFT_SHIFT X  &hml LC(X) Q     &hml LC(C) M    &hml LC(V) W  &kp Z           &lt 4 APOS       &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT COMMA  &hmr LEFT_SHIFT PERIOD
-                                                    &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
+&kp V              &kp L            &kp D         &kp C         &kp V           &kp J            &kp F         &kp O        &kp U             &kp QUESTION
+&hml LC(A) N       &hml LEFT_ALT R  &kp T         &hml LC(F) S  &kp G           &kp Y            &kp H         &kp A        &kp E             &kp I
+&hml LEFT_SHIFT X  &hml LC(X) Q     &hml LC(C) M  &hml LC(V) W  &kp Z           &lt 4 APOS       &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT COMMA  &hmr LEFT_SHIFT PERIOD
+                                                  &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
             >;
         };
 
@@ -297,12 +297,12 @@
             >;
         };
 
-        colemak_layer {
+        FPS_Hunt {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B        &kp J      &kp L  &kp U        &kp Y       &kp APOS
-&kp A  &kp R  &kp S  &kp T  &kp G        &kp M      &kp N  &kp E        &kp I       &kp O
-&kp Z  &kp X  &kp C  &kp D  &kp V        &kp K      &kp H  &comma_semi  &dot_colon  &qmrk_excl
-                     &mo 8  &smart_shft  &kp SPACE  &mo 9
+&kp N3     &kp N1   &kp N2  &kp E        &kp R      &kp F1    &kp F2    &kp F3   &kp F4   &kp F12
+&kp LSHFT  &kp A    &kp W   &kp D        &kp F      &kp TAB   &kp TAB   &kp TAB  &kp TAB  &kp TAB
+&kp LCTRL  &kp TAB  &kp S   &kp X        &kp V      &kp K     &kp H     &kp ESC  &kp ESC  &to 0
+                            &kp LC(F11)  &kp SPACE  &kp LGUI  &kp LALT
             >;
         };
 
