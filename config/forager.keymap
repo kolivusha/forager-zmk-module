@@ -307,7 +307,7 @@
 &kp N3     &kp N1   &kp N2  &kp E        &kp R      &kp F1    &kp F2    &kp F3   &kp F4   &kp F12
 &kp LSHFT  &kp A    &kp W   &kp D        &kp F      &kp TAB   &kp TAB   &kp TAB  &kp TAB  &kp TAB
 &kp LCTRL  &kp TAB  &kp S   &kp X        &kp V      &kp K     &kp H     &kp ESC  &kp ESC  &to 0
-                            &kp LC(F11)  &kp SPACE  &kp LGUI  &kp LALT
+                            &kp LA(F11)  &kp SPACE  &kp LGUI  &kp LALT
             >;
         };
 
