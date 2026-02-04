@@ -142,6 +142,11 @@
             bindings = <&kp ENTER>;
             key-positions = <29 28>;
         };
+
+        screencap {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <20 12>;
+        };
     };
 
     behaviors {
