@@ -259,7 +259,7 @@
 
         main_gallium {
             bindings = <
-&kp V              &kp L            &kp D         &kp C         &kp V           &kp J            &kp F         &kp O        &kp U             &kp QUESTION
+&kp B              &kp L            &kp D         &kp C         &kp V           &kp J            &kp F         &kp O        &kp U             &kp QUESTION
 &hml LC(A) N       &hml LEFT_ALT R  &kp T         &hml LC(F) S  &kp G           &kp Y            &kp H         &kp A        &kp E             &kp I
 &hml LEFT_SHIFT X  &hml LC(X) Q     &hml LC(C) M  &hml LC(V) W  &kp Z           &lt 4 APOS       &hmr RCTRL P  &hmr RGUI K  &hmr RSHFT COMMA  &hmr LEFT_SHIFT PERIOD
                                                   &lt 1 RET     &hml LCTRL TAB  &lt 1 BACKSPACE  &lt 2 SPACE
@@ -304,10 +304,10 @@
 
         FPS_Hunt {
             bindings = <
-&kp N3     &kp N1   &kp N2  &kp E        &kp R      &kp F1    &kp F2    &kp F3   &kp F4   &kp F12
-&kp LSHFT  &kp A    &kp W   &kp D        &kp F      &kp TAB   &kp TAB   &kp TAB  &kp TAB  &kp TAB
-&kp LCTRL  &kp TAB  &kp S   &kp X        &kp V      &kp K     &kp H     &kp ESC  &kp ESC  &to 0
-                            &kp LA(F11)  &kp SPACE  &kp LGUI  &kp LALT
+&kp N3     &kp N1   &kp N2  &kp E            &kp R      &kp F1    &kp F2    &kp F3   &kp F4   &kp F12
+&kp LSHFT  &kp A    &kp W   &kp D            &kp F      &kp TAB   &kp TAB   &kp TAB  &kp TAB  &kp TAB
+&kp LCTRL  &kp TAB  &kp S   &kp X            &kp V      &kp K     &kp H     &kp ESC  &kp ESC  &to 0
+                            &kp LA(PAGE_UP)  &kp SPACE  &kp LGUI  &kp LALT
             >;
         };
 
